@@ -11,11 +11,11 @@ class ScratchEase {
           arguments: {
             ONE: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'First value'
+              defaultValue: ''
             },
             TWO: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'Second value'
+              defaultValue: ''
             }
           }
         }
