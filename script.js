@@ -16,8 +16,7 @@ class ScratchEase {
             TWO: {
               type: Scratch.ArgumentType.STRING,
               defaultValue: ''
-            }
-            {
+        
             opcode: 'strictlyLessorEquals'
             blockType: Scratch.BlockType.BOOLEAN,
             text: '[ONE] is less than or equals [TWO]',
