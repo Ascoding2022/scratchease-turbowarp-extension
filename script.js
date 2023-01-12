@@ -7,7 +7,7 @@ class ScratchEase {
         {
           opcode: 'strictlyEquals',
           blockType: Scratch.BlockType.BOOLEAN,
-          text: '[ONE] strictly equals [TWO]',
+          text: '[ONE] is greater than or equals [TWO]',
           arguments: {
             ONE: {
               type: Scratch.ArgumentType.STRING,
