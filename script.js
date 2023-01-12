@@ -5,9 +5,9 @@ class ScratchEase {
       name: 'ScratchEase',
       blocks: [
         {
-          opcode: 'strictlyGreaterorEquals'
+          opcode: 'equalsorgreater',
           blockType: Scratch.BlockType.BOOLEAN,
-          text: '[ONE] is greater than or equals [TWO]',
+          text: '[ONE] is equal or greater than [TWO]',
           arguments: {
             ONE: {
               type: Scratch.ArgumentType.STRING,
@@ -16,13 +16,13 @@ class ScratchEase {
             TWO: {
               type: Scratch.ArgumentType.STRING,
               defaultValue: ''
-              }
+            }
           }
         }
       ]
     };
   }
-  strictlyGreaterorEquals(args) {
+  equalsorgreater(args) {
     // Note strict equality: Inputs must match exactly: in type, case, etc.
     return args.ONE === args.TWO || args.ONE > args.TWO;
   }
