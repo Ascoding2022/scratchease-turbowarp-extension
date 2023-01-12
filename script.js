@@ -24,7 +24,7 @@ class ScratchEase {
   }
   strictlyEquals(args) {
     // Note strict equality: Inputs must match exactly: in type, case, etc.
-    return args.ONE === args.TWO;
+    return args.ONE === args.TWO || args.ONE > args.TWO;
   }
 }
 Scratch.extensions.register(new ScratchEase());
