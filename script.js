@@ -24,8 +24,8 @@ class ScratchEase {
   }
   equalsorgreater(args) {
     // Note strict equality: Inputs must match exactly: in type, case, etc.
-    argsone = args.ONE * 1;
-    argstwo = args.TWO * 1;
+    var argsone = args.ONE * 1;
+    var argstwo = args.TWO * 1;
     return argsone === argstwo || argsone > argstwo;
   }
 }
