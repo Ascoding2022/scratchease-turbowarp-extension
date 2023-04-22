@@ -5,7 +5,7 @@ class ScratchEase {
     return {
       id: 'ScratchEase',
       name: 'ScratchEase',
-      docsURI: 'https://docs.turbowarp.org/development/extensions/docsURI-demo',
+      docsURI: 'https://ascoding2022.github.io/scratchease-turbowarp-extension/index.html',
       blocks: [
         {
           opcode: 'whenTimerGreaterThan',
